@@ -3,7 +3,7 @@ import { View, StyleSheet, Text, Image, Picker, FlatList, TextInput, Pressable, 
  
 import { api19 as api } from '../src/services/api';
 
-export default class AppCurrency extends Component { //EXERCICIO 19
+export default class App19 extends Component {
     constructor(props){
         super(props);
         this.state = {

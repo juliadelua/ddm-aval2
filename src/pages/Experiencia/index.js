@@ -10,27 +10,19 @@ const navigation = useNavigation();
  
  return (
    <View style={{ position: 'relative', padding: 10 }}>
-    <TouchableOpacity style={styles.return} onPress={ () => navigation.toggleDrawer() }>
-      <FontAwesome name='bars' size={25} color='#007AFF' />
-    </TouchableOpacity>
-
      <Text style={styles.title}>Experiencia</Text>
      
      <View style={styles.alunaBox}>
-        <View style={{ width: 80, backgroundColor: 'black', borderRadius: 5 }}></View>
         <View style={{ display: 'flex', flexDirection: 'column', maxWidth: '80%' }}>
-          <Text style={styles.alunaName}>Alun@ Fulan@</Text>
-          <Text style={styles.alunaDesc}>26 anos. São Paulo.</Text>
-          <Text style={styles.alunaDesc}>Alun@ tal gosta de cozinhar, desenhar e de jogar games.</Text>
+          <Text style={styles.alunaName}>Julia Gato</Text>
+          <Text style={styles.alunaDesc}>● Desenvolvimento Full-Stack, atuando na área de desevolvimento web.</Text>
         </View>
      </View>
 
      <View style={styles.alunaBox}>
-        <View style={{ width: 80, backgroundColor: 'black', borderRadius: 5 }}></View>
         <View style={{ display: 'flex', flexDirection: 'column', maxWidth: '80%' }}>
-          <Text style={styles.alunaName}>Alun@ Siclan@</Text>
-          <Text style={styles.alunaDesc}>28 anos. Curitiba.</Text>
-          <Text style={styles.alunaDesc}>Alun@ tal gosta de filmes, livros e séries. Também tem interesse em isso e aquilo.</Text>
+          <Text style={styles.alunaName}>Marjorye Ciardullo</Text>
+          <Text style={styles.alunaDesc}>● Desenvolvimento Back-End atuando na área de dados.</Text>
         </View>
      </View>
     
@@ -67,6 +59,7 @@ const styles = StyleSheet.create({
     padding: 5,
     borderRadius: 5,
     columnGap: 10,
+    background: 'white',
   },
   return:{
     display: 'flex',

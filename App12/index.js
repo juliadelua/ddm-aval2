@@ -16,15 +16,18 @@ export default function App12(){
 			<Drawer.Navigator>
 				<Drawer.Screen 
 					name="Pessoal" 
-					component={Pessoal} 
+					component={Pessoal}
+					options={{ title: ''}}
 				/>
 				<Drawer.Screen 
 					name="Formacao" 
-					component={Formacao} 
+					component={Formacao}
+					options={{ title: ''}}
 				/>
 				<Drawer.Screen 
 					name="Experiencia" 
 					component={Experiencia}
+					options={{ title: ''}}
 				/>
 			</Drawer.Navigator>
 		</NavigationContainer>

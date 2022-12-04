@@ -8,7 +8,7 @@ import Form from '../src/Form';
  
 const Stack = createStackNavigator();
  
-export default function App(){
+export default function App21(){
   return(
     <NavigationContainer>
       <Stack.Navigator>

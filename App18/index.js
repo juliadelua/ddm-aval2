@@ -3,13 +3,13 @@ import { View, StyleSheet, Text, Image, FlatList, TextInput, Pressable, Activity
  
 import { api18 as api } from '../src/services/api';
 
-export default class App18 extends Component { //EXERCICIO 18
+export default class App18 extends Component {
 constructor(props){
     super(props);
     this.state = {
-    data: [],
-    user: '',
-    loading: false,
+        data: [],
+        user: '',
+        loading: false,
     };
 
     this.getUser = this.getUser.bind(this);
